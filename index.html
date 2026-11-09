@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Class X IT 402 digital documentation and electronic spreadsheet notes and quick revision PDFs.">
+  <title>IT 402 | Class X Study Library</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero" id="top">
+    <nav class="nav">
+      <a class="brand" href="#top"><span class="brand-mark">IT</span><span>IT 402 <small>CLASS X • 2026–27</small></span></a>
+      <div class="nav-links"><a href="#documentation">Digital Documentation</a><a href="#spreadsheet">Electronic Spreadsheet</a></div>
+    </nav>
+    <div class="hero-inner">
+      <div class="eyebrow">CBSE • INFORMATION TECHNOLOGY (402)</div>
+      <h1>Your Notes.<br><span>Your Revision.</span></h1>
+      <p>Access chapter-wise detailed notes and quick revision PDFs for Class X Information Technology.</p>
+      <a class="hero-btn" href="#documentation">Explore Study Material <span>↓</span></a>
+      <div class="hero-tags"><span>▤ Detailed Notes</span><span>⚡ Quick Revision</span><span>↓ PDF Downloads</span></div>
+    </div>
+    <div class="decor decor-a"></div><div class="decor decor-b"></div>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div><span class="kicker">STUDY LIBRARY</span><h2>Choose a subject area</h2><p>Each chapter has two resources: detailed notes and quick revision.</p></div>
+      <div class="search"><span>⌕</span><input id="search" type="search" placeholder="Search chapter or subject..." aria-label="Search chapters"></div>
+    </section>
+
+    <section class="subject-section" id="documentation">
+      <div class="subject-heading">
+        <div class="subject-icon blue">▤</div>
+        <div><span class="subject-number">PART B · UNIT 1</span><h2>Digital Documentation</h2><p>Advanced • LibreOffice Writer</p></div>
+        <span class="count">3 Chapters</span>
+      </div>
+      <div class="chapter-grid" id="documentation-list"></div>
+    </section>
+
+    <section class="subject-section" id="spreadsheet">
+      <div class="subject-heading">
+        <div class="subject-icon green">▦</div>
+        <div><span class="subject-number">PART B · UNIT 2</span><h2>Electronic Spreadsheet</h2><p>Advanced • LibreOffice Calc</p></div>
+        <span class="count">4 Chapters</span>
+      </div>
+      <div class="chapter-grid" id="spreadsheet-list"></div>
+    </section>
+</main>
+
+  <footer><div class="footer-brand">IT 402 <span>•</span> CLASS X</div><p>Information Technology Study Material · Session 2026–27</p><a href="#top">Back to top ↑</a></footer>
+
+  <div class="instruction-overlay" id="instructionPopup" role="dialog" aria-modal="true" aria-labelledby="popupTitle">
+    <div class="instruction-modal">
+      <div class="popup-icon">📘</div>
+      <button class="popup-close" id="closePopup" aria-label="Close instructions">×</button>
+      <span class="popup-kicker">PLEASE READ BEFORE STUDYING</span>
+      <h2 id="popupTitle">How to Use Your Study Material</h2>
+      <p class="popup-intro">This website contains study material for two units of Class X IT (402):</p>
+      <div class="popup-unit"><span>01</span><div><strong>Digital Documentation</strong><small>Advanced • LibreOffice Writer</small></div></div>
+      <div class="popup-unit"><span>02</span><div><strong>Electronic Spreadsheet</strong><small>Advanced • LibreOffice Calc</small></div></div>
+      <ul class="popup-rules">
+        <li>Each chapter has <strong>Detailed Notes</strong> and a <strong>Quick Revision</strong> version.</li>
+        <li>Write the <strong>Quick Revision</strong> content in your notebook.</li>
+        <li>If CBSE questions are included at the end of a Quick Revision PDF, <strong>do not write those questions</strong> in your notebook.</li>
+      </ul>
+      <button class="popup-continue" id="continueButton">Got it — Continue <span>→</span></button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
